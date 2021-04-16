@@ -264,6 +264,7 @@ def main(stdscr):
             kill = True
         if entry == ' ':
             reset = True
+        
         if reset:
             reset = False
             initGame(stdscr)
